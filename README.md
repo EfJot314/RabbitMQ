@@ -1,12 +1,14 @@
 # Scenariusz: Obsługujemy oddział ortopedyczny w szpitalu
 
+Szpital przyjmuje pacjentów z kontuzjami: biodra (hip), kolana (knee) lub łokcia (elbow)
+
 ## Mamy 3 typy użytkowników:
 
 - Lekarz (zleca badania, dostaje wyniki)
 - Technik (wykonuje badania, wysyła wyniki)
 - Administrator (loguje całą aktywność, może wysyłać informacje do wszystkich)
 
-## Szpital przyjmuje pacjentów z kontuzjami: biodra (hip), kolana (knee) lub łokcia (elbow)
+
 ### Lekarz:
 
 - Wysyła zlecenie badania podając typ badania (np. knee) oraz nazwisko pacjenta, do dowolnego technika, który umie wykonać takie badanie
@@ -24,6 +26,7 @@ Uwaga: jeśli jest dwóch techników z tym samym typem badania (np. knee) to wia
 - Loguje całą aktywność (dostaje kopie wszystkich wiadomości – zleceń oraz odpowiedzi)
 - Ma możliwość przesłania wiadomości (info) do wszystkich
 
+## Diagram oczekiwanego rozwiązania
 
 ![Diagram](task_diagram.png)
 
